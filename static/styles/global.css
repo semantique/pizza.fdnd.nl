@@ -1,0 +1,21 @@
+:root {
+    --spacing: .5rem;
+    --background: #050542;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, san-serif;
+    background: var(--background);
+    color: #fff;
+}
