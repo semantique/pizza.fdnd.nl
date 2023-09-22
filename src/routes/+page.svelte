@@ -3,8 +3,4 @@
     const { orders } = data
 </script>
 
-<ul>
-    {#each orders as order}
-        <li>Order op {order.date}</li>
-    {/each}
-</ul>
+<pre>{ JSON.stringify(orders, 0, 2) }</pre>
