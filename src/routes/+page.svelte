@@ -1,9 +1,10 @@
 <script>
-    export let data;
+    export let data
+    const { orders } = data
 </script>
 
 <ul>
-    {#each data.countries as country}
-        <li>{country.name}</li>
+    {#each orders as order}
+        <li>Order op {order.date}</li>
     {/each}
 </ul>
